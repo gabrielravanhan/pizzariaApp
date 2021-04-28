@@ -1,17 +1,64 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Pizzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://media.gazetadopovo.com.br/bomgourmet/2016/06/pizza-hut-gua-verde-bacon-barbecue-fd469db0.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Bacon</h1>
+          <p>Bacon, mussarela, molho de tomate, orégano e cebola.</p>
+        </div>
+      </ion-label>
+      <ion-badge>R$ 21,00</ion-badge>
+    </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/pizza-quatro-queijos-comitc3aa-umami.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Quatro Queijos</h1>
+          <p>Gorgonzola, mussarela, parmesão, provonole e molho de tomate.</p>
+        </div>
+      </ion-label>
+      <ion-badge>R$ 17,50</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://blog.novasafra.com.br/wp-content/uploads/2016/01/accb7d_37d37d9f1001e88384dafc6e5cc60c4f.jpg_1024.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Calabresa</h1>
+          <p>Calabresa, molho de tomate, mussarela, cebola e orégano.</p>
+        </div>
+      </ion-label>
+      <ion-badge>R$ 16,00</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://maniadeesfiha.com.br/wp-content/uploads/2019/03/pizza-de-catupiry.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Catupiry</h1>
+          <p>Catupiry, mussarela, molho de tomate e orégano.</p>
+        </div>
+      </ion-label>
+      <ion-badge>R$ 15,00</ion-badge>
+    </ion-item>
+  </ion-list>
 </ion-content>
