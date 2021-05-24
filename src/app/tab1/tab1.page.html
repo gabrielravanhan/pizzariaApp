@@ -1,64 +1,124 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="primary">
+  <ion-toolbar color="vermelho">
     <ion-title>
       Pizzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-list>
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="https://media.gazetadopovo.com.br/bomgourmet/2016/06/pizza-hut-gua-verde-bacon-barbecue-fd469db0.jpg">
-      </ion-thumbnail>
-      <ion-label class="ion-text-wrap">
-        <div>
-          <h1>Bacon</h1>
-          <p>Bacon, mussarela, molho de tomate, orégano e cebola.</p>
-        </div>
-      </ion-label>
-      <ion-badge>R$ 21,00</ion-badge>
-    </ion-item>
+<ion-content [fullscreen]="true" color="light">
+  <ion-searchbar placeholder="Buscar Pizzas"></ion-searchbar>
 
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/pizza-quatro-queijos-comitc3aa-umami.jpg">
-      </ion-thumbnail>
-      <ion-label class="ion-text-wrap">
-        <div>
-          <h1>Quatro Queijos</h1>
-          <p>Gorgonzola, mussarela, parmesão, provonole e molho de tomate.</p>
-        </div>
-      </ion-label>
-      <ion-badge>R$ 17,50</ion-badge>
-    </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img src="https://i.pinimg.com/736x/b7/58/38/b75838e01d585e5f4aa94b3eb217ea49.jpg">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label class="ion-text-wrap">
+              <div>
+                <h1>Bacon e Cheddar</h1>
+                <p>Bacon, mussarela, molho de tomate e cheddar.</p>
+              </div>
+            </ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-badge color="vermelho" slot="end">R$ 30,00</ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
 
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img
-          src="https://blog.novasafra.com.br/wp-content/uploads/2016/01/accb7d_37d37d9f1001e88384dafc6e5cc60c4f.jpg_1024.jpg">
-      </ion-thumbnail>
-      <ion-label class="ion-text-wrap">
-        <div>
-          <h1>Calabresa</h1>
-          <p>Calabresa, molho de tomate, mussarela, cebola e orégano.</p>
-        </div>
-      </ion-label>
-      <ion-badge>R$ 16,00</ion-badge>
-    </ion-item>
+      <ion-col>
+        <ion-card>
+          <img
+            src="https://thumb-cdn.soluall.net/prod/shp_products/sp1280fw/5db09a5b-e90c-4b5c-885f-5ee9ac1e00f4/5db09a5b-d95c-4db9-9f04-5ee9ac1e00f4.jpg">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label class="ion-text-wrap">
+              <div>
+                <h1>Estrogonofe</h1>
+                <p>Frango, batata palha, molho e orégano.</p>
+              </div>
+            </ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-badge color="vermelho" slot="end">R$ 17,50</ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
 
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="https://maniadeesfiha.com.br/wp-content/uploads/2019/03/pizza-de-catupiry.jpg">
-      </ion-thumbnail>
-      <ion-label class="ion-text-wrap">
-        <div>
-          <h1>Catupiry</h1>
-          <p>Catupiry, mussarela, molho de tomate e orégano.</p>
-        </div>
-      </ion-label>
-      <ion-badge>R$ 15,00</ion-badge>
-    </ion-item>
-  </ion-list>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img
+            src="https://media.gazetadopovo.com.br/bomgourmet/2016/06/pizza-hut-gua-verde-bacon-barbecue-fd469db0.jpg">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label class="ion-text-wrap">
+              <div>
+                <h1>Bacon</h1>
+                <p>Bacon, mussarela, molho de tomate e orégano.</p>
+              </div>
+            </ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-badge color="vermelho" slot="end">R$ 21,00</ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card>
+          <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/pizza-quatro-queijos-comitc3aa-umami.jpg">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label class="ion-text-wrap">
+              <div>
+                <h1>Quatro Queijos</h1>
+                <p>Parmesão, provonole mussarela, gorgonzola.</p>
+              </div>
+            </ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-badge color="vermelho" slot="end">R$ 17,50</ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img
+            src="https://i2.wp.com/saudevidatotal.com/wp-content/uploads/2018/08/Pizza-Calabresa..jpg?fit=720%2C480&ssl=1">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label class="ion-text-wrap">
+              <div>
+                <h1>Calabresa</h1>
+                <p>Calabresa, mussarela, cebola e orégano.</p>
+              </div>
+            </ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-badge color="vermelho" slot="end">R$ 16,00</ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card>
+          <img src="https://maniadeesfiha.com.br/wp-content/uploads/2019/03/pizza-de-catupiry.jpg">
+          <ion-item lines="none" class="ion-no-padding">
+            <ion-label class="ion-text-wrap">
+              <div>
+                <h1>Catupiry</h1>
+                <p>Catupiry, mussarela, molho de tomate e orégano.</p>
+              </div>
+            </ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-badge color="vermelho" slot="end">R$ 15,00</ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

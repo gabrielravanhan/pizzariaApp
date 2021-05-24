@@ -1,11 +1,93 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="danger">
+  <ion-toolbar color="azul">
     <ion-title>
       Bebidas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" color="light">
+  <ion-searchbar placeholder="Buscar Bebidas"></ion-searchbar>
 
+  <ion-list>
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img src="https://boomburgers.com.br/wp-content/uploads/2020/08/refrigerantes-lata-350ml-min.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Refrigerante 350ml</h1>
+          <p>Coca-Cola, Coca-Cola Zero, Fanta, Fanta Uva ou Fanta Guaraná.</p>
+        </div>
+      </ion-label>
+      <ion-badge color="azul" slot="end">R$ 5,50</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img src="https://delivery.cachorraolanches.com.br/apetite/uploads/m_37351512688138.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Refrigerante 600ml</h1>
+          <p>Coca-Cola, Coca-Cola Zero, Fanta, Fanta Uva, Fanta Guaraná, Kuat ou Sprite.</p>
+        </div>
+      </ion-label>
+      <ion-badge color="azul" slot="end">R$ 7,50</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img src="https://maniadeesfiha.com.br/wp-content/uploads/2016/09/refrigerante-de-2-litros-min-min.png">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Refrigerante 2L</h1>
+          <p>Coca-Cola, Coca-Cola Zero, Fanta ou Guaraná Antarctica.</p>
+        </div>
+      </ion-label>
+      <ion-badge color="azul" slot="end">R$ 15,00</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img
+          src="https://restaurantehassan.com.br/wp-content/uploads/2020/08/suco-limao.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Suco de Limão 500ml</h1>
+          <p>Suco de Limão natural.</p>
+        </div>
+      </ion-label>
+      <ion-badge color="azul" slot="end">R$ 6,00</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img
+          src="https://comeonburger.com.br/wp-content/uploads/2019/12/laranja.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Suco de Laranja 500ml</h1>
+          <p>Suco de Laranja natural.</p>
+        </div>
+      </ion-label>
+      <ion-badge color="azul" slot="end">R$ 6,50</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-thumbnail slot="start">
+        <img src="https://i.ytimg.com/vi/QFWpUkyjE5A/maxresdefault.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Suco de Abacaxi 500ml</h1>
+          <p>Suco de Abacaxi natural.</p>
+        </div>
+      </ion-label>
+      <ion-badge color="azul" slot="end">R$ 7,25</ion-badge>
+    </ion-item>
+  </ion-list>
 </ion-content>
